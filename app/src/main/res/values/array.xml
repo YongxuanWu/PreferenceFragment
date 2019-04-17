@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting">
+        <item>Alpha Option 01</item>
+        <item>Beta Option 02</item>
+        <item>Charlie Option 03</item>
+    </string-array>
+    <string-array name="setting_value">
+        <item>我是存储的:Alpha Option 01</item>
+        <item>我是存储的:Beta Option 02</item>
+        <item>我是存储的:Charlie Option 03</item>
+    </string-array>
+</resources>
