@@ -1,24 +1,24 @@
 实验目的
 ---
-    使用PrefereceFragment实现设置页面<br>
-    设置项说明<br>
-    >总共四组设置项<br>
-    In-line preferences<br> 
-      >>CheckBoxPreference<br> 
-    Dialog-based preferences: <br>
-      >>EditTextPreference <br>
-      >>ListPreference <br>
-    Launch preferences <br>
-      >>PreferenceScreen: 跳转到另一个PreferenceScreen <br>
-      >>PreferenceScreen: 启动一个网页<br>
-    Preference attributes <br>
-      >>CheckBox: 父选项<br>
-      >>CheckBox: 子选项，当父选项勾选时呈现
+    使用PrefereceFragment实现设置页面
+    设置项说明
+    总共四组设置项
+    In-line preferences 
+        CheckBoxPreference
+    Dialog-based preferences: 
+        EditTextPreference 
+        ListPreference 
+    Launch preferences 
+        PreferenceScreen: 跳转到另一个PreferenceScreen 
+        PreferenceScreen: 启动一个网页
+    Preference attributes 
+        CheckBox: 父选项
+        CheckBox: 子选项，当父选项勾选时呈现
 关键代码
 ---
 1.preferences.xml
 ```
-    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory
         android:title="In-line preferences">
         <CheckBoxPreference
@@ -101,3 +101,8 @@ public class MainActivity extends AppCompatActivity {
 结果截图
 ---
 ![image](https://github.com/YongxuanWu/PreferenceFragment/blob/master/app/src/main/res/pictures/IMG_20190417_155512.jpg)
+![image](https://github.com/YongxuanWu/PreferenceFragment/blob/master/app/src/main/res/pictures/IMG_20190417_155535.jpg)
+![image](https://github.com/YongxuanWu/PreferenceFragment/blob/master/app/src/main/res/pictures/IMG_20190417_155550.jpg)
+![image](https://github.com/YongxuanWu/PreferenceFragment/blob/master/app/src/main/res/pictures/IMG_20190417_155602.jpg)
+![image](https://github.com/YongxuanWu/PreferenceFragment/blob/master/app/src/main/res/pictures/IMG_20190417_155618.jpg)
+![image](https://github.com/YongxuanWu/PreferenceFragment/blob/master/app/src/main/res/pictures/IMG_20190417_155636.jpg)
